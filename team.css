@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+ background-color: #000;
+}
+
+#header{
+    height: 10vh;
+    width: 100%;
+ background-color: #000;
+   position: fixed;
+z-index: 1;
+    display: flex;
+}
+#logo img{
+    height: 9vh;
+    margin: .5rem 2rem;
+}
+#text {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+     box-sizing: border-box;      
+    gap: 1.5rem;
+    justify-content: center;    
+   margin: 2vw 2vw 2vw auto;            
+    padding: 1rem;              
+    width: 90%;                 
+    max-width: 400px;          
+   
+}
+#h:hover{
+    color: grey;
+     cursor: pointer;
+      text-decoration: underline brown ;
+}
+#C:hover{
+    color: green;
+    box-shadow: green;
+    cursor: pointer;
+}
+#j:hover{
+    color: grey;
+     cursor: pointer;
+     text-decoration: underline brown ;
+}
+#G:hover{
+    color: grey;
+     cursor: pointer;
+      text-decoration: underline brown ;
+}
+#T:hover{
+    color: grey;
+     cursor: pointer;
+      text-decoration: underline brown ;
+}
+#fakeheader{
+    height: 10vh;
+    width: 100%;
+   color: #000;
+    display: flex;
+}
+
+
+ #page1{
+
+    width: 100%;
+     background-color: #000;
+ position: relative;
+  
+}
+#space{
+        width:100%;
+    height: 60vh;
+margin-top: 2rem;
+position: relative;
+overflow: hidden;
+  justify-content: center;
+  display: flex;
+}
+#space img{
+      width: 100%;
+  height: 100%;
+
+}
+#content1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+   
+}
+.ct1{
+   color: yellow;
+    text-shadow: 1px 1px 4px yellow;
+    margin-top: 2rem;
+    font-size: larger;
+    font-weight: bolder;
+}
+.ct2{
+    color: white;
+    margin-top: 1.5rem;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+}
+#subsy{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.subsy1{
+    margin: 2rem;
+margin-top: 3rem;
+ background-color:#313E6B;
+ 
+}
+#prop1{
+      height: 90px;
+    width: 550px;
+      
+    color: aliceblue;
+}
+#prop2{
+    height: 100px;
+    width: 550px;
+   
+    color: aliceblue;
+}
+#prop3{
+    height: 100px;
+    width: 550px;
+   
+    color: aliceblue;
+}
+#prop4{
+    height: 100px;
+    width: 550px;
+    
+    color: aliceblue;
+}
+#prop5{
+    height: 100px;
+    width: 550px;
+   
+    color: aliceblue;
+}
+#prop6{
+    height: 100px;
+    width: 550px;
+    
+    color: aliceblue;
+}
+.title{
+ color: rgb(90, 4, 4);
+
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    margin-top: .5rem;
+}
+.subtitle{
+margin-top: 1rem;
+display: flex;
+    justify-content: center;
+    margin-left: 1rem;
+}
+
+.subsy2{
+    margin: 2rem;
+margin-top: 3rem;
+ background-color: #38656D ;
+ 
+}
